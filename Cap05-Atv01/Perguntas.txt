@@ -1,0 +1,7 @@
+O valor impresso depende do local de definição ou do local de chamada da função?
+→ Depende do local de definição (escopo estático).
+
+Qual linguagem se comporta como escopo estático e qual se aproxima de dinâmico?
+→ Tanto Python quanto JavaScript usam escopo estático (léxico).
+Nenhuma das duas linguagens modernas trabalha com escopo dinâmico puro (isso era comum em linguagens mais antigas).
+Mas podemos simular escopo dinâmico passando variáveis como parâmetros, como no último exemplo.

@@ -1,0 +1,11 @@
+1. Qual a diferença entre um array e um registro/objeto?
+
+Array: é um tipo homogêneo, ou seja, todos os elementos são do mesmo tipo (ex.: só inteiros, só doubles).
+Struct/Classe (objeto): é um tipo heterogêneo, pois pode agrupar diferentes tipos de dados (ex.: título = string, ano = int, preço = float).
+
+
+
+2. Quando usar array e quando usar struct/classe?
+
+Array: quando você precisa de uma coleção de dados do mesmo tipo, geralmente para armazenar listas numéricas, vetores, matrizes, etc.
+Struct/Classe: quando você precisa representar uma entidade mais complexa, que reúne dados de tipos diferentes relacionados entre si (como "Livro", "Pessoa", "Produto").

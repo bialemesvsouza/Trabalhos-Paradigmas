@@ -1,0 +1,49 @@
+Por que o Java não permite e o Python permite?
+
+Java (tipagem estática):
+
+    O tipo da variável é fixado no momento da declaração (int num = 10;).
+
+    O compilador já impede operações inválidas antes mesmo de rodar o programa.
+
+Python (tipagem dinâmica):
+
+    O tipo da variável pode mudar durante a execução.
+
+    Só no momento da operação o interpretador verifica se é válida.
+
+
+-- VANTAGENS E DESVANTAGENS
+
+
+Java (tipagem estática):
+- Vantagens:
+
+Erros detectados em tempo de compilação (mais segurança).
+
+Melhor desempenho em tempo de execução (otimizações do compilador).
+
+Facilita manutenção em grandes sistemas, pois os tipos estão explícitos.
+
+- Desvantagens:
+
+Menos flexibilidade (precisa converter manualmente entre tipos).
+
+Mais verbosidade no código.
+
+
+
+Python (tipagem dinâmica):
+- Vantagens:
+
+Mais flexível e rápido para escrever (não precisa declarar tipos).
+
+Facilita prototipagem e experimentação.
+
+- Desvantagens:
+
+Erros aparecem só em tempo de execução.
+
+Pode gerar comportamentos inesperados se não houver cuidado.
+
+Menor desempenho em comparação com linguagens de tipagem estática.

@@ -1,0 +1,11 @@
+Por que a sempre reinicia do zero?
+→  Porque a é automática: cada vez que a função é chamada, a memória para a é alocada de novo e inicializada com 0. Ao final da execução da função, a variável deixa de existir.
+
+Por que b acumula valor entre chamadas?
+→  Porque b é estática: sua memória é reservada apenas uma vez, na primeira execução, e permanece válida durante todo o programa. Assim, o valor é preservado entre chamadas da função.
+
+Relação com o tempo de vida da variável:
+
+ Variáveis automáticas → tempo de vida limitado ao escopo da função (existem apenas enquanto a função está em execução).
+
+ Variáveis estáticas → tempo de vida é todo o programa (mas o escopo continua sendo o da função onde foram declaradas).
