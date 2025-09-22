@@ -1,0 +1,4 @@
+O código com goto funciona, mas é menos legível, pois exige acompanhar os saltos de execução, o que pode deixar o fluxo confuso em programas maiores.
+A versão com while já melhora, pois expressa diretamente a ideia de repetir enquanto a condição for verdadeira.
+A versão com for é ainda mais clara nesse caso, já que temos um contador explícito, deixando evidente onde a repetição começa e termina.
+Portanto, o laço for é a forma mais legível e natural para esse problema, seguido do while, enquanto o goto deve ser evitado em código moderno.

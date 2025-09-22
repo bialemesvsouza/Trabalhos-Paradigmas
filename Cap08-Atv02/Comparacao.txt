@@ -1,0 +1,12 @@
+C:
+    - Usa switch/case, que deixa claro o fluxo de decisão.
+    - Necessário declarar variáveis, definir função de fatorial separada, usar scanf/printf.
+    - Código mais verboso e menos flexível.
+
+Python:
+    - Estrutura mais enxuta e direta, sem necessidade de declarações explícitas de tipos.
+    - A leitura é mais próxima da linguagem natural (if/elif/else).
+    - Menos linhas de código para o mesmo resultado.
+
+Conclusão: A implementação em Python foi mais simples, clara e rápida de escrever, principalmente porque não exige declarações formais de variáveis 
+nem funções auxiliares tão detalhadas. Em C, o código é mais estruturado, mas também mais burocrático.

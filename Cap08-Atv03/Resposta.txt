@@ -1,0 +1,11 @@
+Problemas do goto:
+
+    -Código mais difícil de ler e manter.
+    -Maior chance de erros, como loops infinitos ou saltos incorretos.
+    -Controle de fluxo disperso e confuso, especialmente em programas maiores.
+
+Vantagens da abordagem moderna (break, continue, return):
+
+    -Mais legível e estruturada.
+    -Menor risco de erros de salto.
+    -Fluxo de execução mais claro e direto.
