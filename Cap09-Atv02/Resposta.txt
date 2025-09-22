@@ -1,0 +1,22 @@
+O que acontece com a ordem das mensagens exibidas?
+
+As mensagens da corrotina e da função normal se intercalam.
+A saída não é completamente previsível, porque a corrotina é gerenciada pelo scheduler do Go.
+
+
+
+Por que as mensagens se intercalam?
+
+A palavra-chave go inicia a função como uma goroutine, que é uma corrotina do Go.
+Corrotinas permitem que múltiplas rotinas sejam executadas concorrentemente, mas dentro do mesmo processo.
+O scheduler do Go alterna rapidamente a execução entre a corrotina e o fluxo principal, criando o efeito de intercalamento.
+
+
+
+Relação com o Capítulo 9
+
+Corrotinas são subprogramas que podem interromper e retomar sua execução, compartilhando o mesmo ambiente de execução.
+Diferente de threads pesadas, corrotinas são mais leves e permitem concorrência cooperativa.
+No exemplo, a corrotina escrever("Corrotina") e a função normal escrever("Função normal") compartilham a CPU, demonstrando execução concorrente controlada
+pelo scheduler do Go.
+O intercalamento das mensagens é a manifestação prática da execução concorrente de corrotinas, conforme estudado no capítulo.
