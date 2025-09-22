@@ -1,0 +1,18 @@
+Diferença:
+
+- Passagem por valor: A função recebe uma cópia da variável. Alterar essa cópia não altera o valor da variável original no programa principal.
+- Passagem por referência: A função recebe o endereço da variável original. Alterar o valor através desse endereço modifica diretamente a variável no programa principal.
+
+Por que o valor da variável só se altera na versão por referência?
+
+Porque, na passagem por referência, o subprograma não trabalha com uma cópia, mas com o endereço da variável original na memória.
+Assim, qualquer modificação dentro da função afeta diretamente o valor armazenado naquela posição de memória.
+
+
+
+
+Relação com as estratégias de passagem de parâmetros do Capítulo 9:
+
+Passagem por valor: protege a variável original, pois o subprograma só manipula uma cópia. É segura para evitar efeitos colaterais.
+Passagem por referência: permite que o subprograma altere a variável original, porque o parâmetro é ligado ao ambiente de referenciamento da variável original. Isso é útil para funções que precisam modificar variáveis ou economizar memória ao passar grandes estruturas de dados.
+A diferença entre as duas versões reflete exatamente essas estratégias de passagem de parâmetros, mostrando como a escolha do método afeta a alteração de dados no programa principal.
